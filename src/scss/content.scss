@@ -1,0 +1,26 @@
+@import "variables.scss";
+@import "why_dostavista";
+@import "how_we_work";
+
+.content {
+  width: 100%;
+  padding: 28px 26px;
+  box-sizing: border-box;
+
+  & .heading {
+      width: 100%;
+      height: auto;
+      padding-bottom: 16px;
+  }
+
+  & .border_bottom {
+      border-bottom: 1px solid $border_color;
+  }
+
+  & h1 {
+      text-align:center;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+}

@@ -1,0 +1,48 @@
+body {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#container {
+  box-shadow: none !important;
+}
+
+header {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+
+  & h2 {
+    font-size: 18px;
+    transform: scale(0.7);
+  }
+}
+
+.header_desc {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  box-sizing: border-box;
+  line-height: 130%;
+}
+
+.how_we_work_arrow {
+  display: none;
+}
+
+.why_dostavista_item {
+  flex-direction: column !important;
+
+  .why_dostavista_item_title, .why_dostavista_item_description {
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+
+}
+
+
+#how_we_work_container {
+  flex-direction: column !important;
+
+  .how_we_work_item {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,55 @@
+#how_we_work {
+  width: 100%;
+  padding: 10px 0px 20px 0px;
+
+  & #how_we_work_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: space-around;
+
+    & .how_we_work_item {
+      width: 25%;
+      height: auto;
+      box-sizing: border-box;
+      padding: 0px 2%;
+      position: relative;
+
+      & .how_we_work_arrow {
+        position: absolute;
+        z-index: 100;
+        right: -25px;
+        top: 40px;
+      }
+
+      & .how_we_work_item_flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        & img {
+          margin: 20px 0px;
+        }
+
+        & p {
+          padding: 0px 15px;
+          font-size: 13px;
+          line-height: 130%;
+        }
+
+      }
+
+    }
+
+  }
+
+  & h3, h3:hover {
+    text-align:center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+}
